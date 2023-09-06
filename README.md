@@ -20,14 +20,26 @@ You can customize this given sample template/example according to your specific 
 import pandas as pd
 from preprodata import remove_duplicates, scale_features
 
-# Load your dataset (example using Pandas DataFrame)
-data = pd.read_csv('your_dataset.csv')
+try:
+    # Load your dataset using the full file path, treating all columns as strings
+    data = pd.read_csv('/home/hecker/Documents/packages/preprodata/your_dataset.csv', dtype=str)
 
-# Clean the data by removing duplicate rows
-cleaned_data = remove_duplicates(data)
+    # Clean the data by removing duplicate rows
+    cleaned_data = remove_duplicates(data)
 
-# Preprocess the data by scaling numeric features
-scaled_data = scale_features(cleaned_data)
+    # Preprocess the data by scaling numeric features
+    # Assuming that your scale_features function handles strings gracefully
+    scaled_data = scale_features(cleaned_data)
+
+    # Now you can work with the cleaned and scaled data
+    print(scaled_data.head())  # Example: Display the first few rows of the processed data
+
+except FileNotFoundError:
+    print("File 'your_dataset.csv' not found. Make sure the file path is correct.")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+
 
 ```
 
