@@ -42,7 +42,7 @@ except Exception as e:
 ```
 
 ## Testing 
-You can try testing using this  <a href="samole.csv" download>sample.csv</a> in your system.
+You can try testing using this  <a href="sample.csv" download>sample.csv</a> in your system.
 ## Features
 - Data Cleaning:
     - Remove duplicates.
