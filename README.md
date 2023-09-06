@@ -22,7 +22,7 @@ from preprodata import remove_duplicates, scale_features
 
 try:
     # Load your dataset using the full file path, treating all columns as strings
-    data = pd.read_csv('/home/hecker/Documents/packages/preprodata/your_dataset.csv', dtype=str)
+    data = pd.read_csv('sample.csv', dtype=str)
 
     # Clean the data by removing duplicate rows
     cleaned_data = remove_duplicates(data)
@@ -35,12 +35,10 @@ try:
     print(scaled_data.head())  # Example: Display the first few rows of the processed data
 
 except FileNotFoundError:
-    print("File 'your_dataset.csv' not found. Make sure the file path is correct.")
+    print("File 'sample.csv' not found. Make sure the file path is correct.")
 
 except Exception as e:
     print(f"An error occurred: {e}")
-
-
 ```
 
 ## Features
