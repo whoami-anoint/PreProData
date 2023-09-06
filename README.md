@@ -41,6 +41,8 @@ except Exception as e:
     print(f"An error occurred: {e}")
 ```
 
+## Testing 
+You can try testing using this  <a href="samole.csv" download>sample.csv</a> in your system.
 ## Features
 - Data Cleaning:
     - Remove duplicates.
