@@ -380,7 +380,7 @@ Quamash==0.6.1
 readme-renderer==40.0
 redis==4.3.4
 repoze.lru==0.7
-requests==2.25.1
+requests==2.31.0
 requests-ntlm==1.1.0
 requests-toolbelt==0.10.1
 retrying==1.3.3
