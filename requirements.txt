@@ -78,7 +78,7 @@ constantly==15.1.0
 contourpy==1.0.7
 crackmapexec==5.4.0
 crit==3.17.1
-cryptography==41.0.4
+cryptography==41.0.6
 cvss==2.4
 cycler==0.11.0
 Cython==0.29.36
