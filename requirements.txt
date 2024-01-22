@@ -269,7 +269,7 @@ pgcli==3.5.0
 pgspecial==2.0.1
 phonenumbers==8.12.57
 pickleshare==0.7.5
-Pillow==10.0.1
+Pillow==10.2.0
 pkginfo==1.8.2
 plaster==1.0
 plaster-pastedeploy==0.5
