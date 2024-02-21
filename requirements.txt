@@ -5,7 +5,7 @@ aiocmd==0.1.2
 aioconsole==0.3.1
 aiodns==3.0.0
 aiofiles==23.1.0
-aiohttp==3.8.4
+aiohttp==3.9.2
 aiomultiprocess==0.9.0
 aioredis==1.3.1
 aiosignal==1.3.1
@@ -59,7 +59,7 @@ Brlapi==0.8.4
 Brotli==1.0.9
 cbor==1.0.0
 censys==2.2.4
-certifi==2020.12.5
+certifi==2023.7.22
 certipy-ad==4.7.0
 cffi==1.15.1
 chardet==4.0.0
@@ -78,7 +78,7 @@ constantly==15.1.0
 contourpy==1.0.7
 crackmapexec==5.4.0
 crit==3.17.1
-cryptography==41.0.4
+cryptography==42.0.4
 cvss==2.4
 cycler==0.11.0
 Cython==0.29.36
@@ -92,7 +92,7 @@ dirsearch==0.4.2
 diskcache==5.4.0
 distlib==0.3.7
 distro==1.8.0
-Django==3.1.5
+Django==3.2.24
 django-crispy-forms==1.10.0
 dnslib==0.9.23
 dnspython==2.3.0
@@ -113,7 +113,7 @@ faraday-agent-parameters-types==1.2.0
 faraday-cli==2.1.8
 faraday-plugins==1.12.0
 faradaysec==4.5.1
-fastapi==0.100.0
+fastapi==0.109.1
 feedparser==6.0.10
 fierce==1.5.0
 filedepot==0.5.2
@@ -132,7 +132,7 @@ Flask-SocketIO==5.3.2
 Flask-SQLAlchemy==3.0.3
 Flask-WTF==1.1.1
 flatbuffers==2.0.8+dfsg1
-fonttools==4.38.0
+fonttools==4.43.0
 frozenlist==1.4.0
 fs==2.4.16
 future==0.18.2
@@ -179,7 +179,7 @@ jaraco.text==3.11.1
 jdcal==1.0
 jedi==0.18.2
 jeepney==0.8.0
-Jinja2==2.11.2
+Jinja2==3.1.3
 jmespath==1.0.1
 joblib==1.3.2
 jq==1.2.1
@@ -254,7 +254,7 @@ outcome==1.2.0
 packaging==20.8
 paho-mqtt==1.6.1
 pandas==1.5.3
-paramiko==2.12.0
+paramiko==3.4.0
 parso==0.8.3
 passlib==1.7.4
 Paste==3.5.2
@@ -312,7 +312,7 @@ PyGObject==3.44.1
 pygraphviz==1.7
 PyHamcrest==2.0.3
 pyinotify==0.9.6
-PyInstaller==3.5+498e6ee058
+PyInstaller==5.13.1
 PyJWT==2.7.0
 pylnk3==0.4.2
 pyminifier==2.1
@@ -335,7 +335,7 @@ PyQt5-sip==12.12.2
 PyQt6==6.5.2
 PyQt6-sip==13.5.2
 pyqtgraph==0.13.3
-pyramid==2.0
+pyramid==2.0.2
 pyrsistent==0.18.1
 pyscreenshot==3.1
 PySecretSOCKS==0.9.1
@@ -356,7 +356,7 @@ python-gnupg==0.4.9
 python-gvm==23.4.2
 python-jose==3.3.0
 python-magic==0.4.26
-python-multipart==0.0.5
+python-multipart==0.0.7
 python-owasp-zap-v2.4==0.0.20
 python-pam==2.0.2
 python-pptx==0.6.18
@@ -428,7 +428,7 @@ SQLAlchemy-Utc==0.14.0
 sqlparse==0.4.1
 sslyze==5.1.3
 stack-data==0.6.2
-starlette==0.30.0
+starlette==0.36.2
 stone==3.3.1
 sympy==1.12
 syslog-rfc5424-formatter==1.2.3
@@ -445,14 +445,14 @@ tinycss2==1.2.1
 tld==0.11.11
 tls-parser==1.2.2
 tomli==2.0.1
-tornado==6.3.2
+tornado==6.3.3
 tqdm==4.64.1
 traitlets==5.5.0
 translationstring==1.4
 trio==0.22.2
 trio-websocket==0.10.3
 twine==4.0.2
-Twisted==22.4.0
+Twisted==23.10.0
 txaio==21.2.1
 typing_extensions==4.7.1
 tzlocal==5.0.1
@@ -463,7 +463,7 @@ unicodecsv==0.14.1
 unicrypto==0.0.10
 Unidecode==1.3.6
 uritemplate==4.1.1
-urllib3==1.26.2
+urllib3==1.26.18
 urwid==2.1.2
 uvicorn==0.17.6
 uvloop==0.17.0
@@ -480,7 +480,7 @@ WebOb==1.8.6
 websocket-client==1.2.3
 websockets==10.4
 websockify==0.10.0
-Werkzeug==2.2.2
+Werkzeug==2.3.8
 wfuzz==3.1.0
 whois==0.8
 wifite==2.7.0
